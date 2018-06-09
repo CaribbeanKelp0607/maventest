@@ -10,7 +10,7 @@ public class Test {
             File file = new File("example.txt");
             output = new BufferedWriter(new FileWriter(file));
             output.write(text);
-            String lvyuan="textdevelop";
+            String lvyuan="textdeveloptest";
             String lvyuan="text2";
         } catch ( IOException e ) {
             e.printStackTrace();
