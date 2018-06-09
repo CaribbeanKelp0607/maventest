@@ -11,6 +11,7 @@ public class Test {
             output = new BufferedWriter(new FileWriter(file));
             output.write(text);
             String lvyuan="text";
+            String lvyuan="text2";
         } catch ( IOException e ) {
             e.printStackTrace();
         } finally {
