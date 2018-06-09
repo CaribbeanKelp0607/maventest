@@ -1,3 +1,7 @@
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+
 public class Test {
     public static void main(String[] args) {
         String text = "Hello world";
@@ -6,6 +10,7 @@ public class Test {
             File file = new File("example.txt");
             output = new BufferedWriter(new FileWriter(file));
             output.write(text);
+            String lvyuan="text";
         } catch ( IOException e ) {
             e.printStackTrace();
         } finally {
